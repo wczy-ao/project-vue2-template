@@ -3,7 +3,7 @@
 </template>
 <script>
 export default {
-  name: 'testPlugin',
+  name: 'PluginOneToSeven',
   data() {
     return {}
   },

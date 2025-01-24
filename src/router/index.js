@@ -5,7 +5,6 @@ import PageView from 'page/Page.vue'
 import { cloneDeep } from '@/util'
 Vue.use(VueRouter)
 
-cloneDeep()
 const routes = [
   { path: '/', component: HomeView },
   { path: '/page', component: PageView }
