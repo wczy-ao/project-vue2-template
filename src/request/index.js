@@ -24,7 +24,7 @@ service.interceptors.response.use(
   (response) => {
     if (response.status === 200) {
       if (response.data.status != '1') {
-				Message.error('请求出错')
+        Message.error('请求出错')
       }
       return response.data
     } else {
