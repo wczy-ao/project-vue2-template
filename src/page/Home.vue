@@ -2,7 +2,7 @@
   <div>
     Home
     <test-plugin></test-plugin>
-    <p><router-link to="/page">Page页面</router-link></p>
+    <p><router-link to="/page">Page111页面</router-link></p>
   </div>
 </template>
 
